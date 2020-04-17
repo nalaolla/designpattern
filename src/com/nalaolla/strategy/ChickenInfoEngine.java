@@ -12,7 +12,7 @@ public class ChickenInfoEngine {
 
         System.out.println("치킨정보시스템");
         System.out.println("-------------------");
-        System.out.println("");
+        System.out.println();
 
         do {
             System.out.println("원하는 치킨의 정보를 입력하세요..");
@@ -47,7 +47,7 @@ public class ChickenInfoEngine {
             chicken.number();
 
             System.out.println("-----------------");
-            System.out.println("");
+            System.out.println();
             System.out.println("계속진행하시겠습니까? Y/N");
             exitToken = sc.next();
         } while (exitToken.equalsIgnoreCase("y"));
